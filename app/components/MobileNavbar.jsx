@@ -21,9 +21,9 @@ export default function MobileNavbar() {
        {/* Mobile Top Bar */}
       <div className="lg:hidden fixed bg-[#222] top-0 left-0 border-b border-[#3c3535] pr-12 right-0 px-4 py-4 flex justify-around items-center z-50">
         <Link href="/">
-        <h1 className="text-white text-[20px] font-light">Keivan Sabermahani</h1>
+        <h1 className="text-white text-[15px] font-light">Keivan Sabermahani</h1>
         </Link>
-      <div className="flex space-x-4 mr-20 text-[11px] ">
+      <div className="flex space-x-1 mr-8 text-[11px] ">
         <button
           onClick={() => changeLang("de")}
           className={`border-2 rounded-full px-2 cursor-pointer ${lang === "de" ? "bg-white/20 text-white" : ""}`}

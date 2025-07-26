@@ -94,7 +94,7 @@ export default function MyPages({project}) {
     const { lang } = useLanguage();
     const t = translations[lang];
     return (
-        <div className="px-10 py-10 max-w-5xl mx-auto text-white">
+        <div className="px-10 py-10 mt-15 max-w-5xl mx-auto text-white">
       <Link href="/" className="text-white hover:text-white/50">{t.backToHome}</Link>
 
       <h1 className="text-2xl pb-5 font-semibold mt-4">{project.name}</h1>
