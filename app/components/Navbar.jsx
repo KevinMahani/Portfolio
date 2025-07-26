@@ -58,10 +58,10 @@ export default function Navbar() {
     <Link href="/">
     <h1 className="text-[20px] font-light text-white -mt-5 mb-10 ">Keivan Sabermahani</h1>
     </Link>
-      <div className="text-[11px] flex space-x-4 mt-8 -mb-10 ">
+      <div className="text-[11px] text-center flex space-x-4 -mt-5 -mb-10 ">
         <button
           onClick={() => changeLang("de")}
-          className={`border-1 rounded-full px-2 cursor-pointer ${lang === "de" ? "bg-white/20 text-white" : ""}`}
+          className={`border-1 rounded-full px-2 py-1 cursor-pointer ${lang === "de" ? "bg-white/20 text-white" : ""}`}
         >
           DE
         </button>

@@ -23,10 +23,10 @@ export default function MobileNavbar() {
         <Link href="/">
         <h1 className="text-white text-[15px] font-light">Keivan Sabermahani</h1>
         </Link>
-      <div className="flex space-x-1 mr-8 text-[11px] ">
+      <div className="flex space-x-1 mr-8 text-[11px] text-center ">
         <button
           onClick={() => changeLang("de")}
-          className={`border-2 rounded-full px-2 cursor-pointer ${lang === "de" ? "bg-white/20 text-white" : ""}`}
+          className={`border-2 text-center rounded-full px-2 py-1 cursor-pointer ${lang === "de" ? "bg-white/20 text-white" : ""}`}
         >
           DE
         </button>
