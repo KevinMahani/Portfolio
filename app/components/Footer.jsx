@@ -36,7 +36,7 @@ export default function Footer() {
                     href="https://www.linkedin.com/in/keivan-mahani-b5b70576/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-blue-400"
+                    className="hover:text-blue-400 text-blue-600 underline"
                 >
                     Keivan Mahani
                 </a>
