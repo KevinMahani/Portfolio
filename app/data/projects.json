@@ -215,6 +215,21 @@
 },
 {
   "id": 14,
+  "name": "Unit Converter",
+  "date": 2023,
+  "description": "📐 Unit Converter – Metric/Imperial\n\nThis is one of the first web applications I built using HTML, CSS, and Vanilla JavaScript. It’s a simple yet fully functional unit converter that allows users to convert values between metric and imperial units, including:\n\n- Meters ↔ Feet\n- Liters ↔ Gallons\n- Kilograms ↔ Pounds\n\nFeatures:\n- User-friendly input field with placeholder behavior\n- Clean, responsive layout with CSS styling and Meyer reset\n- Converts input instantly on button click\n- Stores previously converted values in localStorage for persistence\n- Uses JavaScript DOM manipulation and event handling\n- Dynamic rendering of conversion results with proper formatting\n\nTechnologies Used:\n- HTML5\n- CSS3 (with reset and custom design)\n- JavaScript (Vanilla)\n- LocalStorage API\n\nWhy it matters:\nThis project taught me the fundamentals of working with the DOM, handling user input, using localStorage, and organizing reusable logic — all critical building blocks in becoming a frontend developer.",
+  "visit-link": "https://kevinunitconverter.netlify.app/",
+  "github-link": "https://github.com/KevinMahani/Unit-converter",
+  "cover-image": "/unitconverter/cover.png",
+  "mobile-design": "Mobile Design",
+  "desktop-design": "Desktop Design",
+  "mobile-images": [
+    "/unitconverter/mobile/photo1.png",
+    "/unitconverter/mobile/photo2.png"
+  ]
+},
+{
+  "id": 15,
   "name": "Basketball Scoreboard",
   "date": 2023,
   "description": "A sleek, responsive, and interactive scoreboard built entirely with HTML, CSS, and JavaScript. This project simulates a real-time basketball scorekeeper, allowing users to increment points for Home and Guest teams with intuitive one-click buttons. The UI is styled in a modern dark theme, optimized for both desktop and mobile devices.\n\n⚙️ Features:\n✅ Increment scores by 1, 2, or 3 points for each team\n🔁 'New Game' button resets the scoreboard instantly\n💻 Responsive layout using Flexbox for a seamless experience across devices\n🎨 Styled with a custom dark theme and retro digital fonts for an authentic scoreboard feel\n🚀 Lightweight and fast – runs fully client-side with zero dependencies\n\n🛠️ Technologies Used:\n- HTML5\n- CSS3 (Flexbox, custom styling)\n- JavaScript (DOM manipulation)",
@@ -228,7 +243,7 @@
   ]
 },
 {
-  "id": 15,
+  "id": 16,
   "name": "Decobam (Website)",
   "date": 2023,
   "description": "Decobam is one of my earliest full website designs, created using WordPress. This project showcases my foundational skills in web design, combining visual aesthetics with functionality to deliver a clean, user-friendly experience. The site is tailored for a professional audience, highlighting the company's offerings with a modern and structured layout.\n\n🎯 Project Highlights:\n🔧 Built using WordPress with custom design elements\n🌐 Bilingual support – accessible in both English and French\n🎨 Clean, modern interface with a focus on usability\n📱 Fully responsive design optimized for desktop, tablet, and mobile\n⚡ Smooth navigation and fast loading times for a seamless user experience\n\nThis project reflects my early understanding of design principles, content structure, and responsive design, and laid the groundwork for more advanced work in UI/UX and front-end development.",

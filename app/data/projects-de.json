@@ -210,7 +210,23 @@
     ]
   },
   {
-    "id": 14,
+  "id": 14,
+  "name": "Unit Converter",
+  "date": 2023,
+  "description": "📐 Unit Converter – Metrisch/Imperial\n\nDies ist eine der ersten Webanwendungen, die ich mit HTML, CSS und Vanilla JavaScript erstellt habe. Es ist ein einfaches, aber vollständig funktionales Tool zur Umrechnung von Einheiten zwischen metrischem und imperialem System, einschließlich:\n\n- Meter ↔ Fuß\n- Liter ↔ Gallonen\n- Kilogramm ↔ Pfund\n\nFunktionen:\n- Benutzerfreundliches Eingabefeld mit Platzhalterverhalten\n- Sauberes, responsives Layout mit CSS-Styling und Meyer-Reset\n- Sofortige Umrechnung per Klick\n- Speichert vorherige Eingaben im LocalStorage zur Wiederverwendung\n- DOM-Manipulation und Event-Handling mit JavaScript\n- Dynamische Anzeige der Umrechnungsergebnisse mit Formatierung\n\nVerwendete Technologien:\n- HTML5\n- CSS3 (mit Reset und individuellem Design)\n- JavaScript (Vanilla)\n- LocalStorage API\n\nWarum das Projekt wichtig ist:\nDieses Projekt half mir, die Grundlagen der DOM-Arbeit, der Benutzerinteraktion, der Nutzung von LocalStorage und der Organisation wiederverwendbarer Logik zu verstehen – alles essenzielle Fähigkeiten für die Arbeit als Frontend-Entwickler.",
+  "visit-link": "https://kevinunitconverter.netlify.app/",
+  "github-link": "https://github.com/KevinMahani/Unit-converter",
+  "cover-image": "/unitconverter/cover.png",
+  "mobile-design": "Mobile Design",
+  "desktop-design": "Desktop Design",
+  "mobile-images": [
+    "/unitconverter/mobile/photo1.png",
+    "/unitconverter/mobile/photo2.png"
+  ]
+}
+,
+  {
+    "id": 15,
     "name": "Basketball Scoreboard",
     "date": 2023,
     "description": "Ein schlankes, responsives und interaktives Scoreboard, komplett mit HTML, CSS und JavaScript entwickelt. Dieses Projekt simuliert eine Echtzeit‑Basketball‑Punktezählung – Benutzer können Punkte für Heim‑ und Gästeteam per Klick hinzufügen. Die UI ist modern im dunklen Theme gestaltet und für Desktop & Mobilgeräte optimiert.\n\n⚙️ Funktionen:\n✅ Erhöhe die Punkte um 1, 2 oder 3 für jedes Team\n🔁 'Neues Spiel'‑Button setzt das Scoreboard sofort zurück\n💻 Responsives Layout mit Flexbox für ein nahtloses Erlebnis auf allen Geräten\n🎨 Gestylt mit dunklem Theme und Retro‑Digital‑Fonts für authentisches Scoreboard‑Gefühl\n🚀 Leichtgewichtig und schnell – komplett client‑seitig ohne Abhängigkeiten\n\n🛠️ Technologien:\n- HTML5\n- CSS3 (Flexbox, individuelles Styling)\n- JavaScript (DOM‑Manipulation)",
@@ -224,7 +240,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Decobam (Webseite)",
     "date": 2023,
     "description": "Decobam ist eines meiner frühesten vollständigen Website‑Designs, erstellt mit WordPress. Dieses Projekt zeigt meine grundlegenden Fertigkeiten im Webdesign – visuelles Design kombiniert mit Funktionalität für eine saubere, benutzerfreundliche Erfahrung. Die Website richtet sich an ein professionelles Publikum und hebt das Angebot des Unternehmens in einem modernen, strukturierten Layout hervor.\n\n🎯 Projekt‑Highlights:\n🔧 Entwickelt mit WordPress und custom Design‑Elementen\n🌐 Zweisprachige Unterstützung – zugänglich in Englisch und Französisch\n🎨 Cleanes, modernes Interface mit Fokus auf Usability\n📱 Voll responsives Design für Desktop, Tablet und Mobilgeräte\n⚡ Sanfte Navigation und schnelle Ladezeiten für ein nahtloses Erlebnis",

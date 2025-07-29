@@ -17,7 +17,6 @@ export default function MobileNavbar() {
 
   return (
     <>
-      {/* Mobile Top Bar */}
        {/* Mobile Top Bar */}
       <div className="lg:hidden fixed bg-[#222] top-0 left-0 border-b border-[#3c3535] pr-12 right-0 px-4 py-4 flex justify-around items-center z-50">
         <Link href="/">
