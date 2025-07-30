@@ -1,17 +1,4 @@
-// import projects from "../../data/projects";
-// import { notFound } from "next/navigation";
-// import MyPages from "../../components/MyPages";
 
-// export default function ProjectPage({ params }) {
-//   const project = projects.find((p) => p.id.toString() === params.id);
-
-//   if (!project) return notFound();
-
-//   return (
-//       <MyPages params={params} project={project} />
-//   );
-// }
-// ....................................................
 "use client";
 
 
