@@ -1,6 +1,6 @@
 [
   {
-  "id": 17,
+  "id": 18,
   "name": "Authentication Project",
   "date": 2025,
   "description": "🔐 Auth Flow mit Next.js + TypeScript + SCSS\n\nDieses Projekt demonstriert einen leichtgewichtigen und skalierbaren Authentifizierungs-Flow, entwickelt mit Next.js (App Router), TypeScript und SCSS-Modulen. Es bietet ein sauberes, responsives Interface sowie solide architektonische Praktiken, die sich für produktionsreife Anwendungen eignen.\n\n✅ Hauptfunktionen\n\n🔑 Authentifizierungssystem:\n- Simulierter Login über die randomuser.me API\n- Validierung iranischer Mobilnummern (09xxxxxxxxx) mittels Zod-Schema\n- Speichern von Benutzerdaten via Context API und localStorage\n\n🔐 Geschützte Routen:\n- /dashboard ist durch clientseitige Authentifizierung geschützt\n- Nicht angemeldete Nutzer werden automatisch zu /auth weitergeleitet\n\n🧩 Wiederverwendbare Komponenten:\n- Benutzerdefiniertes <Input /> mit forwardRef und dynamischer Fehleranzeige\n- Benutzerdefiniertes <Button /> mit SCSS-basiertem Styling\n- Klare Trennung von Logik und Darstellung durch modulare Struktur\n\n🎨 Styling:\n- Modulares SCSS mit BEM-ähnlicher Verschachtelung\n- Responsives, mobilfreundliches Layout mit konsistentem Designsystem\n\n🧠 Codequalität:\n- Volle TypeScript-Sicherheit mit klar definierten Typen und Interfaces\n- Skalierbare Ordnerstruktur mit sinnvollen Namenskonventionen\n- Verwendung von React Hooks für State-Management und Nebenwirkungen\n\n🛠️ Verwendete Sprachen & Technologien:\n- TypeScript\n- Next.js (App Router)\n- React\n- SCSS-Module\n- Zod (Schema-Validierung)\n- React Hook Form\n- Context API\n- localStorage\n- ESLint + Prettier (empfohlen für konsistenten Code-Stil)",
@@ -19,7 +19,7 @@
 }
 ,  
   {
-    "id": 16,
+    "id": 17,
     "name": "PrintForge Project",
     "date": 2025,
 "description": "Projektziel:\nEntwicklung und Design einer modernen, responsiven Web-App, die es Nutzern ermöglicht, elegante typografische Poster mühelos zu erstellen. Durch die einfache Eingabe eines Zitats und des Autorennamens können saubere, exportfertige Designs generiert werden – ganz ohne Ablenkungen, für ein reibungsloses und intuitives kreatives Erlebnis.\n\nWichtige Funktionen:\n- Live-Bearbeitung: Echtzeit-Aktualisierungen während der Eingabe für sofortiges visuelles Feedback.\n- Druckqualität-Layout: Perfekt zentrierte und ausgewogene Typografie dank präzisem Rastersystem.\n- Responsiv & adaptiv: Automatische Textskalierung sorgt für ein beeindruckendes Erscheinungsbild auf allen Geräten und Bildschirmgrößen.\n- Minimal & effizient: Fokus auf Klarheit, Performance und benutzerzentriertes Design.\n\nTechnologien & Tools:\n- Frontend: Next.js und React für eine dynamische, performante Benutzeroberfläche mit nahtloser Interaktivität.\n- Styling: Tailwind CSS und individuelles CSS für schnelles, skalierbares und wartbares Design.\n- Markup & Scripting: Semantisches HTML5 und moderne JavaScript-Features (ES6+).\n- Design-Workflow: Figma für UI/UX-Design, Visual Studio Code für effiziente Entwicklung.",
@@ -40,7 +40,7 @@
     ]
     },
     {
-    "id": 15,
+    "id": 16,
     "name": "Cat Facts",
     "date": 2025,
     "description": "Eine leichtgewichtige, einseitige React-Mikro-App, die zufällige Katzenfakten von einer API abruft und anzeigt. Dieses Projekt demonstriert, wie man kleine, funktionale Web-Tools mit einer sauberen, komponentenbasierten Architektur und asynchronem Datenabruf erstellt.\n\n🐾 Hauptfunktionen\n🧠 Ruft bei jedem Klick einen neuen zufälligen Katzenfakt ab\n🔄 Verwendet fetch und React Hooks zur Verarbeitung von API-Anfragen\n⚡ Schnelles Laden – keine unnötigen Bibliotheken oder Ballast\n🐈 Einfaches, verspieltes UI mit klarem Fokus auf den Inhalt\n📱 Vollständig responsiv und mobilfreundlich",
@@ -55,7 +55,7 @@
     ]
     },
      {
-    "id": 14,
+    "id": 15,
     "name": "Quizical",
     "date": 2025,
     "description": "Quizical! 🎉\nIch habe eine interaktive Quiz-App mit React entwickelt, mit der Benutzer ihr Wissen durch Multiple‑Choice‑Fragen testen können. Highlights:\n✅ Antworten werden bei jedem Durchlauf neu gemischt für eine frische Herausforderung\n✅ Sofortiges Feedback mit Markierung von richtig/falsch\n✅ Berechnet und zeigt deine Endpunktzahl an\n✅ Feiern perfekter Punktzahlen mit Konfetti 🎊\n✅ Ermöglicht erneutes Spielen mit neuen Fragen\n\nEs hat mir großen Spaß gemacht, mit React‑Hooks zu arbeiten, State zu verwalten und spielerische UI‑Elemente wie Konfetti‑Animationen hinzuzufügen. Dieses Projekt half mir, meine Fähigkeiten im Erstellen dynamischer und benutzerfreundlicher Oberflächen zu schärfen.\n\nTechnologien & Sprachen:\n- JavaScript (ES6+)\n- React (funktionale Komponenten, Hooks)\n- CSS für Styling und responsive Gestaltung\n- Semantisches HTML5",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Assembly Endgame",
     "date": 2024,
     "description": "🚀 Assembly: Endgame! Es ist ein Worterratenspiel, inspiriert von Hangman, aber mit einem Programmier‑Twist. Jeder falsche Versuch „löscht“ eine Programmiersprache – verlierst du alle, bleibst du nur mit Assembly zurück! 😱\n\nHauptfunktionen:\n- Barrierefreie Bildschirmtastatur\n- Abschiedsnachrichten beim Verlust von Sprachen\n- Zufälliges Wort pro Spiel\n- Konfetti‑Feier, wenn du gewinnst 🎉\n- 'Neues Spiel' setzt alles sofort zurück\n- Verpasst Buchstaben werden angezeigt, wenn du verlierst\n- Entwickelt mit React, barrierefrei und mit viel Spaß!",
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Tenzies",
     "date": 2024,
     "description": "🎲 Diese App kombiniert React‑Grundlagen mit interaktiven Spielmechaniken und fundierten Zugänglichkeitsmaßnahmen. Spieler würfeln mit 10 Würfeln, können einzelne Würfel „festhalten“, um ihre Werte zu speichern, und zielen darauf ab, dass alle Würfel dieselbe Zahl zeigen. Beim Gewinn feiert eine Konfetti‑Animation den Erfolg, und der 'Neues Spiel'‑Button ist direkt per Tastatur zugänglich.\n\nHauptfunktionen:\n- Zehn interaktive Würfel mit Hold/Unhold‑Funktion\n- Automatische Sinn‑Erkennung mit festlicher Konfetti‑Animation beim Gewinn\n- Umfassende Zugänglichkeitsunterstützung für Screenreader und Tastaturnavigation\n- Sauberes, responsives Design für flüssiges Gameplay auf allen Geräten\n\nTechnologien & Sprachen:\n- JavaScript (ES6+)\n- React (funktionale Komponenten, Hooks)\n- CSS für Styling und responsives Design\n- Semantisches HTML5\n\nWas ich gelernt habe:\n- Effizientes State‑Management mit React‑Hooks\n- Bedingte Darstellung je nach Spielzustand\n- Best Practices beim Erstellen zugänglicher und inklusiver React‑Apps",
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Meme Generator",
     "date": 2024,
     "description": "Diese React‑basierte interaktive Meme‑Generator‑App ermöglicht es Benutzern, benutzerdefinierte Memes zu erstellen, indem sie aus einer Vielfalt von Meme‑Vorlagen wählen, die dynamisch über die Imgflip‑API abgerufen werden.\n\nHauptfunktionen:\n- Dynamische Meme‑Vorlagen: Beim Mounten der Komponente werden Meme‑Vorlagen von Imgflip abgerufen und im State gespeichert.\n- Zufällige Meme‑Auswahl: Ein Button erlaubt die Auswahl einer zufälligen Vorlage. Nach Auswahl wird das Meme‑Bild aktualisiert, der obere Text auf den Titel gesetzt und der untere Text zurückgesetzt.\n- Kontrollierte Eingabefelder: Die Top‑ und Bottom‑Text‑Felder sind kontrollierte Komponenten – Eingaben spiegeln sich sofort im Meme‑Bild wider.\n- Live‑Vorschau: Zeigt das Meme‑Bild mit überlagertem Top‑ und Bottom‑Text im Impact‑Font und Umrandung für Lesbarkeit.\n- Benutzerfreundlichkeit: Der Button „Get a new meme image“ ist deaktiviert, bis die Vorlagen geladen sind, für reibungslose Interaktion.\n\nTechnologien & Konzepte:\n- React funktionale Komponenten\n- useState und useEffect Hooks für State‑Management und Side Effects\n- Abrufen und Verarbeiten externer API‑Daten\n- Kontrollierte Formulareingaben zum Editieren\n- Event‑Handling und bedingte Darstellung\n- CSS‑Styling für Layout und Meme‑Text‑Overlay",
@@ -119,7 +119,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Window Tracker",
     "date": 2024,
     "description": "Übersicht:\nUmschaltbare Komponente: Die Haupt‑App verwaltet einen Show‑State, um die WindowTracker‑Komponente mit einem Button ein‑/auszublenden.\n\nEchtzeit‑Fensterbreiten‑Tracking: Die WindowTracker‑Komponente initialisiert den State mit window.innerWidth und hört auf Resize‑Events.\n\nEvent‑Handling mit Cleanup: In useEffect wird ein Resize‑Event‑Listener eingerichtet, der beim Ändern der Fenstergröße den State aktualisiert. Der Listener wird beim Unmount entfernt, um Speicherlecks zu verhindern.\n\nLive‑Anzeige: Die aktuelle Fensterbreite wird in einem <h1> angezeigt und aktualisiert sich sofort bei Größenänderung.\n\nTechnologien & Konzepte:\n- React funktionale Komponenten\n- useState und useEffect Hooks\n- Event Listener mit Cleanup‑Funktion\n- Bedingte Darstellung basierend auf Komponenten‑State",
@@ -133,7 +133,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Fake Store Project",
     "date": 2024,
     "description": "Eine voll funktionsfähige, responsive E‑Commerce‑Anwendung, gebaut mit Nuxt 3 und der FakeStore‑API, entwickelt, um ein realistisches Online‑Shopping‑Erlebnis zu simulieren. Dieses Projekt zeigt meine Fähigkeiten im modernen Vue‑Development, composable Architektur und dynamischer UI‑Gestaltung.\n\n🚀 Hauptfunktionen:\nProduct Catalog & Details\n– Holt Live‑Produktdaten von FakeStore API und zeigt sie in einem strukturierten, responsiven Raster. Jedes Produkt führt zu einer Detailseite mit Bild, Beschreibung und Preis.\n\nInteraktiver Warenkorb\n– Benutzer können Artikel in den Warenkorb legen und entfernen. Der Warenkorb‑State wird mit Pinia + LocalStorage persistiert, um Sitzungsstabilität bei Seitenaktualisierungen zu gewährleisten.\n\nResponsive UI\n– Entwickelt mit reinem CSS3, mit Mobile‑First‑Responsivität und hoher Usability auf allen Bildschirmgrößen.\n\nRouting & State‑Management\n– Nutzt Nuxt‑Routing und Pinia‑Store für nahtlose Seitenübergänge und zentralisiertes Warenkorb‑Management.\n\nError‑Handling & Ladezustände\n– Beinhaltet bedingte Darstellung für Lade‑ und Fehlerzustände, um eine reibungslose UX zu bieten.\n\n🛠️ Tech‑Stack:\n- Vue 3 / Nuxt 3 – Framework und SPA‑Architektur\n- Pinia – leichtgewichtiges State‑Management\n- JavaScript (ES6+) – App‑Logik und API‑Integration\n- CSS3 – maßgeschneidertes responsives Styling\n- Semantisches HTML5\n- FakeStore API – realistische Demo‑Produktdaten\n- LocalStorage – persistierender Warenkorb‑State\n\n🧠 Was ich gelernt habe:\n- Erstellung vollfunktionsfähiger Apps mit der Composition API in Nuxt 3\n- State‑Management mit Pinia und Synchronisation mit dem Browser\n- Dynamisches Routing und asynchrones Laden von Daten in Nuxt\n- Cleanes UI‑Design mit purem CSS ohne Utility‑Frameworks\n- UX‑Optimierung durch passendes Error‑Handling und bedingte Darstellung",
@@ -153,7 +153,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Chef AI",
     "date": 2024,
     "description": "🧠 Projektübersicht\nChef AI ist eine KI‑gestützte Rezeptgenerator‑Web-App, die Zutaten, die Benutzer eingeben, in vollständige, chef‑ähnliche Rezepte mit Zubereitungsschritten, Kochzeit und detaillierten Beschreibungen umwandelt – unter Verwendung der OpenAI API. Entwickelt mit React, Vite und reinem CSS, kombiniert die App moderne Front‑End‑Entwicklung mit Echtzeit‑KI‑Interaktion für ein sauberes, responsives und benutzerfreundliches Erlebnis.\n\n🚀 Hauptfunktionen:\n🍽️ KI‑Generierte Rezepte – Benutzer geben Zutaten ein und erhalten komplette Rezepte mit Zubereitungsanleitung, Kochzeit und Beschreibung\n\n🧠 Intelligentes Prompt‑System – Sorgfältig entworfene Prompts sorgen dafür, dass die KI relevante, hochwertige Ergebnisse in natürlichem Ton liefert\n\n💾 Favoriten‑System – Benutzer können Lieblingsrezepte mit LocalStorage speichern und offline zugänglich halten\n\n📱 Responsive Layout – Voll responsives Interface mit reinem CSS für flüssige Performance auf Desktop und Mobilgeräten\n\n⚙️ Dynamischer React‑State – Effiziente Zustandsverwaltung mit React‑Hooks (useState, useEffect) für Datenfluss und UI‑Verhalten\n\n🛠️ Tech‑Stack:\n- React (JSX) – komponentenbasierte Architektur\n- OpenAI API – GPT‑gestützte Rezeptgenerierung\n- JavaScript (ES6+) – Front‑End‑Logik und dynamisches Rendering\n- CSS3 – individuelles Styling und Responsivität\n- Semantisches HTML5 für Zugänglichkeit\n- Vite – blitzschnelle Build‑ und Entwicklungsumgebung\n- LocalStorage – clientseitige Speicherung für Favoriten\n\n📚 Was ich gelernt habe:\n- Effektive und strukturierte Prompt‑Erstellung zur Steuerung des KI‑Verhaltens\n- Persistentes State‑Management mit React und LocalStorage\n- Modulare, wiederverwendbare Komponenten und saubere Code‑Architektur\n- Responsives Interface‑Design mit purem CSS ohne Framework\n\n🚫 Deployment‑Hinweis:\nDieses Projekt läuft nur lokal, da ein privater API‑Schlüssel verwendet wird und es keine öffentliche Live‑Version gibt.",
@@ -171,7 +171,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Sound Pad",
     "date": 2024,
     "description": "Sound Pads ist eine leichte, interaktive React‑Anwendung, die ein Raster aus Pads visuell darstellt, die ein‑ oder ausgeschaltet werden können. Jedes Pad hat eine eigene Hintergrundfarbe und reagiert auf Benutzereingaben durch Änderung der Deckkraft, um seinen Status widerzuspiegeln. Das Projekt demonstriert dynamisches Styling, Zustandsweitergabe zwischen Komponenten und kontrollierte State‑Updates in React.\n\nHauptfunktionen:\n- Dynamisches Grid‑UI: Eine 8‑Pad‑Oberfläche im 4×2 responsiven Grid‑Layout mit CSS Grid. Jeder Pad hat eine eigene Farbe und wechselt zwischen aktiv (volle Deckkraft) und inaktiv (abgedimmt).\n- State‑Management in React: Verwendet useState() zur Verwaltung der Pad‑States in der übergeordneten App‑Komponente. Der Pad‑State wird unveränderlich über eine toggle(id)‑Funktion aktualisiert.\n- Wiederverwendbare Komponenten‑Architektur: Die Pad‑Komponente ist wiederverwendbar und erhält Props wie id, Farbe, Status und die toggle‑Handlerfunktion. Der State wird auf der Eltern‑Ebene für konsistente Aktualisierungen verwaltet.\n- Einfaches, sauberes Styling: CSS bietet ein dunkles Theme mit stilisierten interaktiven Elementen. Aktive Pads haben volle Deckkraft, inaktive sind gedimmt.\n- Dark‑Mode‑Support: Nimmt ein darkMode‑Prop entgegen, um grundlegendes Theming zu demonstrieren.",
@@ -186,7 +186,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Digital Business Card",
     "date": 2024,
     "description": "🧠 Projektübersicht\nDigital Business Card ist eine saubere, moderne React‑App, die als interaktive und professionelle Alternative zu klassischen Lebensläufen oder ‚Über‑Mich‘‑Seiten dient. Sie ist schnell, responsiv und visuell ansprechend und stärkt die persönliche Marke durch ein minimalistisches Layout und intuitive Benutzerführung.\n\n🚀 Hauptfunktionen:\n📇 Zeigt persönliche Profildetails – Name, Titel, Bild und kurze Bio\n🔗 Anklickbare Kontaktlinks zu Email, LinkedIn, GitHub und Portfolio\n📱 Mobile‑first responsives Layout für nahtlose Darstellung auf allen Geräten\n🎨 Durchdachtes Design mit strukturierten Bereichen: About, Interests und Footer\n✨ Sanfte Interaktionen und visuelle Einheitlichkeit mit modernen UI‑Prinzipien\n\n🛠️ Technologien:\n- React (JSX) – komponentenbasierte Architektur\n- JavaScript (ES6+) – Logik und Benutzerinteraktion\n- HTML5 – semantische Struktur\n- CSS3 – individuelles Styling für Layout und Responsivität\n- Google Fonts (Inter) – klare, lesbare Typografie",
@@ -201,7 +201,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Travel Journal",
     "date": 2023,
     "description": "🧠 Projektübersicht\nTravel Journal ist eine dynamische und responsive React‑Anwendung, die reale Front‑End‑Entwicklungstechniken demonstriert. Sie ist auf Skalierbarkeit und Wartbarkeit ausgelegt und nutzt wiederverwendbare Komponenten sowie Mock‑Daten, um eine realistische Reise‑Log‑Schnittstelle zu simulieren. Dieses Projekt legt Wert auf saubere Architektur, effizientes Rendering und nutzerorientiertes Layout.\n\n🚀 Hauptfunktionen:\n📦 Dynamische Karten‑Darstellung basierend auf Mock‑Daten (simuliert eine einfache API)\n⚛️ Modulare, wiederverwendbare Komponenten in props‑gesteuerter Architektur\n🎨 Sauberes, minimalistisches UI, inspiriert von modernen Reise‑Apps und Dashboards\n🌐 Responsives Design für nahtlose Darstellung auf Desktop und Mobilgeräten\n🗺️ Interaktive Elemente wie eingebettete Google‑Maps‑Links für jedes Reiseziel\n🖼️ Bild‑ und inhaltsreiches Layout, das Reise‑Storytelling durch Design hervorhebt\n\n🛠️ Technologien:\n- React (JSX) – für komponentenbasierte UI\n- JavaScript (ES6+) – Logik, State‑Handling und Daten‑Mapping\n- HTML5 – strukturelles Markup\n- CSS3 – maßgeschneidertes Styling und responsives Layout\n- Google Fonts (Inter) – klare, moderne Typografie",
@@ -215,7 +215,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Password Generator",
     "date": 2023,
     "description": "🧠 Projektübersicht\n\nDieser Password Generator ist ein einfaches, aber effektives Web‑Tool zur Erstellung sicherer, zufälliger Passwörter komplett clientseitig. Es generiert zwei 15‑Zeichen‑Passwörter aus Groß‑ und Kleinbuchstaben, Zahlen und Symbolen und bietet dunkles, responsives Layout.\n\n🎯 Hauptfunktionen:\n✅ Erzeugt pro Klick zwei starke, 15‑Zeichen‑Passwörter\n✅ Voller Zeichensatz: Buchstaben, Zahlen und Sonderzeichen\n🔁 Ein‑Klick‑Copy‑to‑Clipboard‑Funktion mit visueller Rückmeldung\n🔒 100 % clientseitig (keine Server‑Kommunikation)\n🎨 Minimalistisches, responsives UI mit Dark‑Mode‑Styling\n\n🛠️ Technologien:\n- HTML5\n- CSS3 (Flexbox, individuelles Styling, Dark Theme)\n- JavaScript (ES6+)\n\n🔧 Techniken:\n- Zufällige Zeichenwahl aus einem vordefinierten Array\n- DOM‑Manipulation zum Rendern und Aktualisieren des Passwort‑Texts\n- Clipboard‑API für nahtloses Kopieren\n- Zeitgesteuertes Toast‑ähnliches Feedback nach dem Kopieren\n- Mobile‑First responsives Design mit Flexbox und individuellem CSS",
@@ -229,7 +229,7 @@
     ]
   },
   {
-  "id": 3,
+  "id": 4,
   "name": "Unit Converter",
   "date": 2023,
   "description": "📐 Unit Converter – Metrisch/Imperial\n\nDies ist eine der ersten Webanwendungen, die ich mit HTML, CSS und Vanilla JavaScript erstellt habe. Es ist ein einfaches, aber vollständig funktionales Tool zur Umrechnung von Einheiten zwischen metrischem und imperialem System, einschließlich:\n\n- Meter ↔ Fuß\n- Liter ↔ Gallonen\n- Kilogramm ↔ Pfund\n\nFunktionen:\n- Benutzerfreundliches Eingabefeld mit Platzhalterverhalten\n- Sauberes, responsives Layout mit CSS-Styling und Meyer-Reset\n- Sofortige Umrechnung per Klick\n- Speichert vorherige Eingaben im LocalStorage zur Wiederverwendung\n- DOM-Manipulation und Event-Handling mit JavaScript\n- Dynamische Anzeige der Umrechnungsergebnisse mit Formatierung\n\nVerwendete Technologien:\n- HTML5\n- CSS3 (mit Reset und individuellem Design)\n- JavaScript (Vanilla)\n- LocalStorage API\n\nWarum das Projekt wichtig ist:\nDieses Projekt half mir, die Grundlagen der DOM-Arbeit, der Benutzerinteraktion, der Nutzung von LocalStorage und der Organisation wiederverwendbarer Logik zu verstehen – alles essenzielle Fähigkeiten für die Arbeit als Frontend-Entwickler.",
@@ -245,7 +245,7 @@
 }
 ,
   {
-    "id": 2,
+    "id": 3,
     "name": "Basketball Scoreboard",
     "date": 2023,
     "description": "Ein schlankes, responsives und interaktives Scoreboard, komplett mit HTML, CSS und JavaScript entwickelt. Dieses Projekt simuliert eine Echtzeit‑Basketball‑Punktezählung – Benutzer können Punkte für Heim‑ und Gästeteam per Klick hinzufügen. Die UI ist modern im dunklen Theme gestaltet und für Desktop & Mobilgeräte optimiert.\n\n⚙️ Funktionen:\n✅ Erhöhe die Punkte um 1, 2 oder 3 für jedes Team\n🔁 'Neues Spiel'‑Button setzt das Scoreboard sofort zurück\n💻 Responsives Layout mit Flexbox für ein nahtloses Erlebnis auf allen Geräten\n🎨 Gestylt mit dunklem Theme und Retro‑Digital‑Fonts für authentisches Scoreboard‑Gefühl\n🚀 Leichtgewichtig und schnell – komplett client‑seitig ohne Abhängigkeiten\n\n🛠️ Technologien:\n- HTML5\n- CSS3 (Flexbox, individuelles Styling)\n- JavaScript (DOM‑Manipulation)",
@@ -259,7 +259,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Decobam (Webseite)",
     "date": 2022,
     "description": "Decobam ist eines meiner frühesten vollständigen Website‑Designs, erstellt mit WordPress. Dieses Projekt zeigt meine grundlegenden Fertigkeiten im Webdesign – visuelles Design kombiniert mit Funktionalität für eine saubere, benutzerfreundliche Erfahrung. Die Website richtet sich an ein professionelles Publikum und hebt das Angebot des Unternehmens in einem modernen, strukturierten Layout hervor.\n\n🎯 Projekt‑Highlights:\n🔧 Entwickelt mit WordPress und custom Design‑Elementen\n🌐 Zweisprachige Unterstützung – zugänglich in Englisch und Französisch\n🎨 Cleanes, modernes Interface mit Fokus auf Usability\n📱 Voll responsives Design für Desktop, Tablet und Mobilgeräte\n⚡ Sanfte Navigation und schnelle Ladezeiten für ein nahtloses Erlebnis",
@@ -280,6 +280,24 @@
       "/decobam/desktop/photo3.png",
       "/decobam/desktop/photo4.png"
     ]
+  },
+  {
+  "id": 1,
+  "name": "Zarmatn (Website)",
+  "date": 2022,
+  "description": "Zarmatn Übersetzungsagentur-Website \n \n Ich habe die Website von Zarmatn mit WordPress entworfen und entwickelt, als eines meiner ersten professionellen Projekte. Diese persischsprachige Website repräsentiert eine deutsche Übersetzungsagentur mit Sitz in Teheran und bietet Dienstleistungen wie Dokumentenübersetzung, beglaubigte Übersetzungen und Sprachberatung an. Das Design legt den Fokus auf Klarheit, einfache Navigation und ein professionelles Erscheinungsbild, um das Vertrauen der Kunden zu stärken. Ich habe ein responsives Layout für eine nahtlose Ansicht auf Mobilgeräten und Desktop-Computern implementiert, die Ladegeschwindigkeit optimiert und den Inhalt so strukturiert, dass die Dienstleistungen und Kontaktmöglichkeiten der Agentur klar hervorgehoben werden.",
+  "visit-link": "https://zarmatn.ir/",
+  "github-link": "/projects/1",
+  "cover-image": "/zarmatn/cover.png",
+  "mobile-design": "Mobile Design",
+  "desktop-design": "Desktop Design",
+  "mobile-images": [
+    "/zarmatn/photo1.png",
+    "/zarmatn/photo2.png",
+    "/zarmatn/photo3.png",
+    "/zarmatn/photo4.png"
+  ],
+  "desktop-images": []
   }
 
 ]
