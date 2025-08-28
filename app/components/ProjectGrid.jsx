@@ -1,21 +1,73 @@
 
 "use client"
 
+
+import { useRef } from "react";
 import projects from "../data/projects"; // Adjust the path as needed
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub} from "react-icons/fa"
 import { useLanguage } from "../context/LanguageContext";
 import {translations } from "../data/translations";
+import { BsRocket } from "react-icons/bs";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState } from "react";
 
 export default function ProjectGrid() {
   const { lang } = useLanguage();
   const t = translations[lang];
 
+
+  const [launch, setLaunch] = useState(false);
+
+  const gridRef = useRef(null);
+
+  const scrollToGrid = () => {
+    if (gridRef.current) {
+      gridRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   
   return (
-    <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-10">  
-    
+    <>
+    <p className="text-white/80 text-sm leading-relaxed 
+    ml-30 mr-50 mt-20 mb-5 space-y-4 whitespace-pre-line">
+    {t.welcome}
+    <br/><br/>
+    <span className="ml-87 text-[18px]">{t.takeoff}</span>
+    </p>
+       <motion.div
+        className="relative inline-block" // keep your positioning intact
+        whileHover={{
+          rotate: [0, -0.5, 0.5, -0.5, 0.5, 0],
+          transition: { duration: 0.6, repeat: Infinity },
+        }}
+      >
+        
+        <BsRocket 
+        onClick={() => {
+          setLaunch(true);
+          scrollToGrid();
+        }}
+        className="text-[50px] cursor-pointer ml-130" />
+
+        <AnimatePresence>
+          <motion.div
+            className="ml-133.5 -mt-2 " // keep your original fire styles
+            initial={{ opacity: 0, y: 0 }}
+            animate={{ opacity: 1, y: 5 }} // downward flame animation
+            exit={{ opacity: 0 }}
+            transition={{ repeat: Infinity, duration: 0.1  }}
+            key="fire"
+          >
+            🔥
+          </motion.div>
+        </AnimatePresence>
+      </motion.div>
+    <div 
+    ref={gridRef}
+    className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-10 mt-20">  
+ 
     {projects.map((project) => (
         <div
           key={project.id}
@@ -64,6 +116,7 @@ export default function ProjectGrid() {
         </div>
       ))}
     </div>
+    </>
   );
 }
 

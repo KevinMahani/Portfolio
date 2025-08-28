@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+/* Entire scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  display: none;   /* vertical scrollbar width */
+}
+
+/* The draggable part (the "thumb") */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #fff;        /* solid color */
+  border-radius: 8px;
+  scroll-margin: 10px;
+}
+
+/* Thumb on hover */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: hsla(0, 0%, 100%, 0.505);
+  cursor: pointer;
+}
+
+/* Background track behind the thumb */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #222;
+  border-radius: 8px;
+}
+
+/* Corner where vertical & horizontal scrollbars meet */
+.custom-scrollbar::-webkit-scrollbar-corner {
+  background:transparent;
+}
+
