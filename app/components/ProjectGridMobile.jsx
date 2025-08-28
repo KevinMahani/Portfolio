@@ -26,7 +26,7 @@ export default function ProjectGridMobile() {
 
   return (
     <>
-    <p className="text-white/80 text-[10px] leading-relaxed mt-20 ml-10 mr-10 
+    <p className="text-white/80 text-[11.5px] leading-relaxed mt-20 ml-10 mr-10 
     whitespace-pre-line">
     {t.welcome}
     <br/><br/>
@@ -45,11 +45,11 @@ export default function ProjectGridMobile() {
           setLaunch(true);
           scrollToGrid();
         }}
-        className="relative text-[30px] ml-40 -top-8 cursor-pointer " />
+        className="relative text-[30px] ml-40 -top-8 cursor-pointer z-50 " />
 
         <AnimatePresence>
           <motion.div
-            className="relative ml-41 -top-10.5 " // keep your original fire styles
+            className="relative ml-42.5 -top-9.5 text-[8px] " // keep your original fire styles
             initial={{ opacity: 0, y: 0 }}
             animate={{ opacity: 1, y: 5 }} // downward flame animation
             exit={{ opacity: 0 }}
