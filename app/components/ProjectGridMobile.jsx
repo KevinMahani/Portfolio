@@ -30,7 +30,7 @@ export default function ProjectGridMobile() {
     whitespace-pre-line">
     {t.welcome}
     <br/><br/>
-    <span className="relative  text-[10px] -top-12 ml-23 ">{t.takeoff}</span>
+    <span className="relative  text-[10px] -top-12 ml-28 ">{t.takeoff}</span>
     </p>
            <motion.div
         className="relative inline-block" // keep your positioning intact
@@ -45,11 +45,11 @@ export default function ProjectGridMobile() {
           setLaunch(true);
           scrollToGrid();
         }}
-        className="relative text-[30px] ml-40 -top-8 cursor-pointer z-50 " />
+        className="relative text-[30px] ml-45 -top-8 cursor-pointer z-50 " />
 
         <AnimatePresence>
           <motion.div
-            className="relative ml-42.5 -top-9.5 text-[8px] " // keep your original fire styles
+            className="relative ml-47.5 -top-9.5 text-[8px] " // keep your original fire styles
             initial={{ opacity: 0, y: 0 }}
             animate={{ opacity: 1, y: 5 }} // downward flame animation
             exit={{ opacity: 0 }}
