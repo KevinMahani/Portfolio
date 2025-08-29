@@ -37,7 +37,7 @@ export default function ProjectGrid() {
     <span className="ml-87 text-[18px]">{t.takeoff}</span>
     </p>
        <motion.div
-        className="relative inline-block" // keep your positioning intact
+        className="relative inline-block " // keep your positioning intact
         whileHover={{
           rotate: [0, -0.5, 0.5, -0.5, 0.5, 0],
           transition: { duration: 0.6, repeat: Infinity },
@@ -49,7 +49,7 @@ export default function ProjectGrid() {
           setLaunch(true);
           scrollToGrid();
         }}
-        className="text-[50px] cursor-pointer ml-130" />
+        className="text-[50px] cursor-pointer ml-130 " />
 
         <AnimatePresence>
           <motion.div

@@ -174,7 +174,7 @@ export default function MobileNavbar() {
   return (
     <>
        {/* Mobile Top Bar */}
-      <div className="lg:hidden fixed bg-[#222] top-0 left-0 border-b border-[#3c3535] pr-12 right-0 px-4 py-4 flex justify-around items-center z-50">
+      <div className="lg:hidden fixed bg-[#222] z-70 top-0 left-0 border-b border-[#3c3535] pr-12 right-0 px-4 py-4 flex justify-around items-center ">
         <Link href="/">
         <h1 className="text-white text-[15px] font-light">Keivan Sabermahani</h1>
         </Link>
@@ -199,7 +199,7 @@ export default function MobileNavbar() {
 
       {/* Slide-down menu */}
         <div
-          className={`lg:hidden fixed top-0 left-0 right-0 bg-[#222] z-40 
+          className={`lg:hidden fixed top-0 left-0 right-0 bg-[#222] z-60
             transition-all duration-300 ease-in-out overflow-y-auto px-10 py-20
             ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}
           style={{ height: "100dvh" }}
