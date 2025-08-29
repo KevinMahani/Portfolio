@@ -125,12 +125,26 @@ import { useLanguage } from "../context/LanguageContext";
 import { motion, AnimatePresence } from "framer-motion";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { useRef } from "react";
+import { useEffect } from "react";
 
 export default function MobileNavbar() {
   const { lang, changeLang } = useLanguage();
   const projects = lang === "de" ? projectsDe : projectsEN;
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+
+    useEffect(() => {
+        if (isOpen) {
+          // lock scroll
+          document.body.style.overflow = "hidden";
+        } else {
+          // restore scroll
+          document.body.style.overflow = "";
+        }
+        return () => {
+          document.body.style.overflow = "";
+        };
+      }, [isOpen]);
 
   const [showResumeOptions, setShowResumeOptions] = useState(false);
 
@@ -189,7 +203,7 @@ export default function MobileNavbar() {
             transition-all duration-300 ease-in-out overflow-y-auto px-10 py-20 ${
             isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
           }`}
-          style={{ minHeight: "calc(100vh)" }} // optional: full screen minus top bar
+          style={{ height: "100dvh" }} // optional: full screen minus top bar
         >
         {/* resume */}
       <div className="relative flex-col items-center 
