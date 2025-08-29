@@ -200,10 +200,9 @@ export default function MobileNavbar() {
       {/* Slide-down menu */}
         <div
           className={`lg:hidden fixed top-0 left-0 right-0 bg-[#222] z-40 
-            transition-all duration-300 ease-in-out overflow-y-auto px-10 py-20 ${
-            isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
-          }`}
-          style={{ height: "100dvh" }} // optional: full screen minus top bar
+            transition-all duration-300 ease-in-out overflow-y-auto px-10 py-20
+            ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}
+          style={{ height: "100dvh" }}
         >
         {/* resume */}
       <div className="relative flex-col items-center 
