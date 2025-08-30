@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+
+
+
 /* Entire scrollbar */
 .custom-scrollbar::-webkit-scrollbar {
   display: none;   /* vertical scrollbar width */

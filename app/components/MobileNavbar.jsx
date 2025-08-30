@@ -127,6 +127,7 @@ import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { useRef } from "react";
 import { useEffect } from "react";
 
+
 export default function MobileNavbar() {
   const { lang, changeLang } = useLanguage();
   const projects = lang === "de" ? projectsDe : projectsEN;
@@ -192,7 +193,8 @@ export default function MobileNavbar() {
           EN
         </button>
       </div>
-        <button onClick={() => setIsOpen(!isOpen)} className="text-white cursor-pointer text-2xl">
+        <button onClick={() => setIsOpen(!isOpen)} 
+        className="text-white cursor-pointer text-2xl">
           {isOpen ? <IoMdClose /> : <FiMenu />}
         </button>
       </div>
@@ -251,7 +253,8 @@ export default function MobileNavbar() {
           <div className="flex justify-center mt-5">
             <button
               onClick={handleToggle}
-              className="flex justify-center mt-2 items-center cursor-pointer text-center"
+              className="flex justify-center mt-2 items-center 
+              cursor-pointer text-center "
             >
               <span
                 className={`transition-colors ${
@@ -271,7 +274,7 @@ export default function MobileNavbar() {
               exit={{ opacity: 0 }}
               transition={{ repeat: Infinity }}
               onClick = {handleArrowClick}
-              className="absolute left-1/2 ml-25  top-132 -translate-x-1/2 
+              className="absolute left-1/2 ml-25  top-150 -translate-x-1/2 
               cursor-pointer inline-block z-50"
             >
               <MdKeyboardDoubleArrowDown size={28} className="!text-white " />
@@ -299,6 +302,10 @@ export default function MobileNavbar() {
               <li key={p.id} className="py-2">
                 <Link
                   href={`/projects/${p.id}`}
+                  onClick={() => {
+                    setIsOpen(false);
+                    setShowFrontEnd(false);
+                  }}
                   className={`block transition-colors ${
                     isActive ? "text-white" : "text-white/50 hover:text-white"
                   }`}
