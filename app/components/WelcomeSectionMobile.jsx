@@ -11,17 +11,17 @@ export default function WelcomeSectionMobile({ onRocketClick }) {
   const t = translations[lang];
 
   return (
-    <div className="flex flex-col items-center text-center px-8 py-8 lg:hidden">
+    <div className="flex flex-col items-center text-center px-8 py-12 lg:hidden">
       
       {/* ✅ Text Section - responsive and centered */}
       <p className="text-white/80 text-[12px] sm:text-sm leading-relaxed max-w-xl mx-auto whitespace-pre-line mt-10">
         {t.welcome}
         
-        <span className="text-[14px] sm:text-[16px] font-medium block ">{t.takeoff}</span>
+        <span className="text-[14px] sm:text-[16px] font-medium block mt-5">{t.takeoff}</span>
       </p>
 
       {/* ✅ Rocket + Flame - always centered */}
-      <div className="flex justify-center items-center relative mt-10">
+      <div className="flex justify-center items-center relative mt-15 mb-20">
         <motion.div
           className="relative inline-block"
           whileHover={{
