@@ -1,5 +1,26 @@
 [
-    {
+{
+  "id": 19,
+  "name": "VanLife Project",
+  "date": 2025,
+  "description": "🚐 VanLife is a demo van‑rental marketplace built with React, React Router, and Vite.\n\nExplore a fully interactive app that demonstrates:\n- Nested client-side routes\n- Protected host routes\n- Lazy-loaded components for fast performance\n- A small mock API for local development\n\nTest the login flow with this demo account (for local/testing purposes only):\n- Email: b@b.com\n- Password: p123\n\nTech Stack:\n- React (JSX)\n- React Router v6\n- Vite for development and build\n- Plain CSS and static assets\n\nFeatures:\n- Public pages: Home, About, Vans list, Van details\n- Protected host area with nested routes: Dashboard, Income, Reviews, Host vans, and detailed van pages (info, pricing, photos)\n- Route protection via an AuthRequired layout component\n- Lazy-loaded pages using React.lazy and Suspense for faster initial load\n- Fully responsive, clean, and modern UI\n\nVanLife is perfect for exploring how a scalable front-end architecture works while having fun navigating through a van rental demo!",
+  "visit-link": "https://kevin-vanlife.netlify.app/",
+  "github-link": "https://github.com/KevinMahani/VanLife-project",
+  "cover-image": "/vanlife/cover.png",
+  "mobile-design": "Mobile Design",
+  "desktop-design": "Desktop Design",
+  "mobile-images": [
+    "/vanlife/photo1.png",
+    "/vanlife/photo2.png",
+    "/vanlife/photo3.png",
+    "/vanlife/photo4.png",
+    "/vanlife/photo5.png",
+    "/vanlife/photo6.png"
+  ],
+  "desktop-images": []
+}
+
+,{  
   "id": 18,
   "name": "Authentication Project",
   "date": 2025,
