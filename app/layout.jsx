@@ -1,4 +1,5 @@
-import { Merriweather } from "next/font/google";
+// import { Merriweather } from "next/font/google";
+import { Work_Sans} from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar"
 import MobileNavbar from "./components/MobileNavbar";
@@ -6,10 +7,14 @@ import Footer from "./components/Footer";
 import { LanguageProvider } from "./context/LanguageContext";
 
 
-const merriweather = Merriweather({
+// const merriweather = Merriweather({
+//   subsets: ["latin"],
+//   weight: ["300","400", "700"],
+// });
+const worksans = Work_Sans({ 
   subsets: ["latin"],
   weight: ["300","400", "700"],
-});
+ }); 
 
 export const metadata = {
   title: "Create Next App",
@@ -21,7 +26,9 @@ export default function RootLayout({ children }) {
     <LanguageProvider>
     <html lang="en">
       <body
-        className={`${merriweather.className}  antialiased bg-[#222] text-white   `}
+        // className={`${merriweather.className}  antialiased bg-[#222] text-white   `}
+        className={`${worksans.className}  antialiased bg-[#222] text-white   `}
+
       >
         <Navbar />
         <MobileNavbar />

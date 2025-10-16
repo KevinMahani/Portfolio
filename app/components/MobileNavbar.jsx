@@ -64,9 +64,13 @@ export default function MobileNavbar() {
     <>
        {/* Mobile Top Bar */}
       <div className="lg:hidden fixed bg-[#222] z-70 top-0 left-0 border-b border-[#3c3535] pr-12 right-0 px-4 py-4 flex justify-around items-center ">
-        <Link href="/">
-        <h1 className="text-white text-[15px] font-light">Keivan Sabermahani</h1>
-        </Link>
+      <Link href="/">
+        <img
+          src="/Logo/Logo2.png"
+          alt="Logo"
+          className="w-28 sm:w-32 cursor-pointer"
+        />
+      </Link>
       <div className="flex space-x-1 mr-8 text-[11px] text-center ">
         <button
           onClick={() => changeLang("de")}
