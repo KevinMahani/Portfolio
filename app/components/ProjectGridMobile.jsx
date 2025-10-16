@@ -9,6 +9,8 @@ import {translations } from "../data/translations";
 import { useState } from "react";
 import { useRef } from "react";
 import WelcomeSectionMobile from "./WelcomeSectionMobile";
+import { iconMap } from "../data/iconMap";
+
 
 export default function ProjectGridMobile() {
   const { lang } = useLanguage();
@@ -33,7 +35,9 @@ export default function ProjectGridMobile() {
       <div 
       ref={gridRef}
       className="block md:hidden lg:hidden px-12 pt-24 pb-10 space-y-12">
-        {projects.map((project) => (
+        {projects.map((project) => {
+          const icons = Array.isArray(project.langIcons) ? project.langIcons : []
+          return (
           <div key={project.id} className="flex flex-col gap-3">
             {/* Square Image */}
             <div className="aspect-[4/3] relative overflow-hidden rounded-md group">
@@ -48,12 +52,22 @@ export default function ProjectGridMobile() {
             </div>
 
             {/* Title + Date */}
-            <div>
-              <Link href={`/projects/${project.id}`} >
-              <h3 className="text-base font-light text-white">{project.name}</h3>
+          <div className="flex flex-col gap-2 md:hidden">
+            {/* Title and Icons Row */}
+            <div className="flex items-center justify-between text-white text-lg">
+              <Link href={`/projects/${project.id}`}>
+                <h3 className="text-base font-light text-white">{project.name}</h3>
               </Link>
-              <p className="text-xs text-white/50">{project.date}</p>
+
+              {/* Tech / Language Icons */}
+              <div className="flex items-center gap-2">
+                {icons.map((name) => (
+                  <span key={name}>{iconMap[name] || name}</span>
+                ))}
+              </div>
             </div>
+          </div>
+            <p className="text-xs text-white/50">{project.date}</p>
 
             {/* GitHub & Live Buttons */}
             <div className="flex justify-between items-center">
@@ -72,7 +86,8 @@ export default function ProjectGridMobile() {
               </Link>
             </div>
           </div>
-        ))}
+          )
+        })}
       </div>
     </>
   );

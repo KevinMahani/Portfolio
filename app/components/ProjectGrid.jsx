@@ -11,6 +11,7 @@ import { useLanguage } from "../context/LanguageContext";
 import {translations } from "../data/translations";
 import { useState } from "react";
 import WelcomeSection from "./WelcomeSection";
+import { iconMap } from "../data/iconMap";
 
 export default function ProjectGrid() {
   const { lang } = useLanguage();
@@ -36,8 +37,10 @@ export default function ProjectGrid() {
       <WelcomeSection onRocketClick={handleRocketClick}  />
       <div 
       ref={gridRef}
-      className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-10 mt-20">  
-      {projects.map((project) => (
+      className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-10 mt-50">  
+      {projects.map((project) => {
+        const icons = Array.isArray(project.langIcons) ? project.langIcons : []
+        return (
           <div
             key={project.id}
             className="group bg-[#262323a6] p-6 rounded-lg  hover:shadow-2xl transition-shadow"
@@ -55,10 +58,18 @@ export default function ProjectGrid() {
               </Link>
             </div>
 
-            {/* Title */}
-            <Link href={`/projects/${project.id}`}>
-            <h3 className="text-[15px] font-light cursor-pointer text-white">{project.name}</h3>
-            </Link>
+            <div className="flex gap-5 justify-between items-center">
+              {/* Title */}
+              <Link href={`/projects/${project.id}`}>
+                <h3 className="text-[15px] font-light cursor-pointer text-white">{project.name}</h3>
+              </Link>
+              {/* Tech Icons */}
+              <div className="flex items-center gap-2 text-white text-lg ">
+                {icons.map((name) => (
+                  <span key={name}>{iconMap[name] || name}</span>
+                ))}
+              </div>
+            </div>
             {/* Date */}
             <p className="text-[10px] text-white/50 mt-1">{project.date}</p>
 
@@ -83,7 +94,8 @@ export default function ProjectGrid() {
               </Link>
             </div>
           </div>
-        ))}
+        )
+      })}
       </div>
     </>
   );

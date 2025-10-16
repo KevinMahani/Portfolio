@@ -3,7 +3,7 @@
   
   {
   "id": 19,
-  "name": "VanLife Projekt",
+  "name": "VanLife Project",
   "date": 2025,
   "description": "🚐 VanLife ist ein Demo-Marktplatz für Van-Vermietungen, gebaut mit React, React Router und Vite.\n\nEntdecke eine interaktive App, die Folgendes demonstriert:\n- Verschachtelte client-seitige Routen\n- Geschützte Host-Routen\n- Lazy-loaded Komponenten für schnelle Performance\n- Eine kleine Mock-API für die lokale Entwicklung\n\nTeste den Login mit folgendem Demo-Konto (nur für lokale/testzwecke):\n- E-Mail: b@b.com\n- Passwort: p123\n\nTech Stack:\n- React (JSX)\n- React Router v6\n- Vite für Entwicklung und Build\n- Plain CSS und statische Assets\n\nFunktionen:\n- Öffentliche Seiten: Home, About, Vans-Liste, Van-Details\n- Geschützter Host-Bereich mit verschachtelten Routen: Dashboard, Einnahmen, Bewertungen, Host-Vans und detaillierte Van-Seiten (Infos, Preise, Fotos)\n- Routen-Schutz über eine AuthRequired Layout-Komponente\n- Lazy-loaded Seiten mit React.lazy und Suspense für schnelleres Laden\n- Vollständig responsive, saubere und moderne Benutzeroberfläche\n\nVanLife ist perfekt, um zu entdecken, wie eine skalierbare Frontend-Architektur funktioniert, während man Spaß daran hat, durch ein Van-Vermietungs-Demo zu navigieren!",
   "visit-link": "https://kevin-vanlife.netlify.app/",
@@ -23,7 +23,7 @@
   },
   {
   "id": 18,
-  "name": "Authentication Projekt",
+  "name": "Authentication Project",
   "date": 2025,
   "description": "🔐 Auth Flow mit Next.js + TypeScript + SCSS\n\nDieses Projekt demonstriert einen leichtgewichtigen und skalierbaren Authentifizierungs-Flow, entwickelt mit Next.js (App Router), TypeScript und SCSS-Modulen. Es bietet ein sauberes, responsives Interface sowie solide architektonische Praktiken, die sich für produktionsreife Anwendungen eignen.\n\n✅ Hauptfunktionen\n\n🔑 Authentifizierungssystem:\n- Simulierter Login über die randomuser.me API\n- Validierung iranischer Mobilnummern (09xxxxxxxxx) mittels Zod-Schema\n- Speichern von Benutzerdaten via Context API und localStorage\n\n🔐 Geschützte Routen:\n- /dashboard ist durch clientseitige Authentifizierung geschützt\n- Nicht angemeldete Nutzer werden automatisch zu /auth weitergeleitet\n\n🧩 Wiederverwendbare Komponenten:\n- Benutzerdefiniertes <Input /> mit forwardRef und dynamischer Fehleranzeige\n- Benutzerdefiniertes <Button /> mit SCSS-basiertem Styling\n- Klare Trennung von Logik und Darstellung durch modulare Struktur\n\n🎨 Styling:\n- Modulares SCSS mit BEM-ähnlicher Verschachtelung\n- Responsives, mobilfreundliches Layout mit konsistentem Designsystem\n\n🧠 Codequalität:\n- Volle TypeScript-Sicherheit mit klar definierten Typen und Interfaces\n- Skalierbare Ordnerstruktur mit sinnvollen Namenskonventionen\n- Verwendung von React Hooks für State-Management und Nebenwirkungen\n\n🛠️ Verwendete Sprachen & Technologien:\n- TypeScript\n- Next.js (App Router)\n- React\n- SCSS-Module\n- Zod (Schema-Validierung)\n- React Hook Form\n- Context API\n- localStorage\n- ESLint + Prettier (empfohlen für konsistenten Code-Stil)",
   "visit-link": "https://kevin-authentication-project.netlify.app/",
@@ -42,7 +42,7 @@
 ,  
   {
     "id": 17,
-    "name": "PrintForge Projekt",
+    "name": "PrintForge Project",
     "date": 2025,
 "description": "Projektziel:\nEntwicklung und Design einer modernen, responsiven Web-App, die es Nutzern ermöglicht, elegante typografische Poster mühelos zu erstellen. Durch die einfache Eingabe eines Zitats und des Autorennamens können saubere, exportfertige Designs generiert werden – ganz ohne Ablenkungen, für ein reibungsloses und intuitives kreatives Erlebnis.\n\nWichtige Funktionen:\n- Live-Bearbeitung: Echtzeit-Aktualisierungen während der Eingabe für sofortiges visuelles Feedback.\n- Druckqualität-Layout: Perfekt zentrierte und ausgewogene Typografie dank präzisem Rastersystem.\n- Responsiv & adaptiv: Automatische Textskalierung sorgt für ein beeindruckendes Erscheinungsbild auf allen Geräten und Bildschirmgrößen.\n- Minimal & effizient: Fokus auf Klarheit, Performance und benutzerzentriertes Design.\n\nTechnologien & Tools:\n- Frontend: Next.js und React für eine dynamische, performante Benutzeroberfläche mit nahtloser Interaktivität.\n- Styling: Tailwind CSS und individuelles CSS für schnelles, skalierbares und wartbares Design.\n- Markup & Scripting: Semantisches HTML5 und moderne JavaScript-Features (ES6+).\n- Design-Workflow: Figma für UI/UX-Design, Visual Studio Code für effiziente Entwicklung.",
     "visit-link": "https://kevin-printforge-project.netlify.app/",
@@ -156,7 +156,7 @@
   },
   {
     "id": 10,
-    "name": "Fake Store Projekt",
+    "name": "Fake Store Project",
     "date": 2024,
     "description": "Eine voll funktionsfähige, responsive E‑Commerce‑Anwendung, gebaut mit Nuxt 3 und der FakeStore‑API, entwickelt, um ein realistisches Online‑Shopping‑Erlebnis zu simulieren. Dieses Projekt zeigt meine Fähigkeiten im modernen Vue‑Development, composable Architektur und dynamischer UI‑Gestaltung.\n\n🚀 Hauptfunktionen:\nProduct Catalog & Details\n– Holt Live‑Produktdaten von FakeStore API und zeigt sie in einem strukturierten, responsiven Raster. Jedes Produkt führt zu einer Detailseite mit Bild, Beschreibung und Preis.\n\nInteraktiver Warenkorb\n– Benutzer können Artikel in den Warenkorb legen und entfernen. Der Warenkorb‑State wird mit Pinia + LocalStorage persistiert, um Sitzungsstabilität bei Seitenaktualisierungen zu gewährleisten.\n\nResponsive UI\n– Entwickelt mit reinem CSS3, mit Mobile‑First‑Responsivität und hoher Usability auf allen Bildschirmgrößen.\n\nRouting & State‑Management\n– Nutzt Nuxt‑Routing und Pinia‑Store für nahtlose Seitenübergänge und zentralisiertes Warenkorb‑Management.\n\nError‑Handling & Ladezustände\n– Beinhaltet bedingte Darstellung für Lade‑ und Fehlerzustände, um eine reibungslose UX zu bieten.\n\n🛠️ Tech‑Stack:\n- Vue 3 / Nuxt 3 – Framework und SPA‑Architektur\n- Pinia – leichtgewichtiges State‑Management\n- JavaScript (ES6+) – App‑Logik und API‑Integration\n- CSS3 – maßgeschneidertes responsives Styling\n- Semantisches HTML5\n- FakeStore API – realistische Demo‑Produktdaten\n- LocalStorage – persistierender Warenkorb‑State\n\n🧠 Was ich gelernt habe:\n- Erstellung vollfunktionsfähiger Apps mit der Composition API in Nuxt 3\n- State‑Management mit Pinia und Synchronisation mit dem Browser\n- Dynamisches Routing und asynchrones Laden von Daten in Nuxt\n- Cleanes UI‑Design mit purem CSS ohne Utility‑Frameworks\n- UX‑Optimierung durch passendes Error‑Handling und bedingte Darstellung",
     "visit-link": "https://kevin-fake-store-project.netlify.app/",
