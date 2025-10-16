@@ -15,7 +15,7 @@ export default function WelcomeSection({ onRocketClick }) {
     <div className="hidden lg:flex flex-col items-center text-center p-10 ">
       
       {/* ✅ Text Section centered and responsive */}
-      <p className="text-white/80 text-sm md:text-base leading-relaxed max-w-2xl mx-auto whitespace-pre-line">
+      <p className="text-white/80 text-sm md:text-base leading-relaxed max-w-3xl mx-auto whitespace-pre-line">
         {t.welcome}
         <br /><br />
         <span className="text-[18px] font-medium">{t.takeoff}</span>
