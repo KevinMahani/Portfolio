@@ -235,9 +235,9 @@ export default function Navbar() {
     border-r-2 border-white/20 ">
       <Link href="/">
         <img
-          src="/Logo/Logo2.png"
+          src="/Logo/Logo3.png"
           alt="Logo"
-          className="w-32 mb-10 cursor-pointer"
+          className="w-32 mb-12 cursor-pointer"
         />
       </Link>
 

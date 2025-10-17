@@ -26,7 +26,7 @@ export const metadata = {
     siteName: "Keivan Mahani Portfolio",
     images: [
       {
-        url: "https://keivanmahani.netlify.app/Logo/Logo2.png",
+        url: "https://keivanmahani.netlify.app/Logo/Cover.png",
         width: 1200,
         height: 630,
         alt: "Keivan Mahani Logo",
@@ -38,7 +38,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Keivan Mahani – Front-End Developer",
     description: "Portfolio and professional skills of Keivan Mahani",
-    images: ["https://keivanmahani.netlify.app/Logo/Logo2.png"],
+    images: ["https://keivanmahani.netlify.app/Logo/Cover.png"],
   },
 };
 
