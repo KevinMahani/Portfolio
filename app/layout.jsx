@@ -17,10 +17,10 @@ const worksans = Work_Sans({
  }); 
 
 export const metadata = {
-  title: "Keivan Mahani – Front-End Developer",
+  title: "Keivan-Mahani-Portfolio",
   description: "Portfolio and professional skills of Keivan Mahani",
   openGraph: {
-    title: "Keivan Mahani – Front-End Developer",
+    title: "Keivan-Mahani-Portfolio",
     description: "Portfolio and professional skills of Keivan Mahani",
     url: "https://keivanmahani.netlify.app/",
     siteName: "Keivan Mahani Portfolio",
@@ -36,7 +36,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Keivan Mahani – Front-End Developer",
+    title: "Keivan-Mahani-Portfolio",
     description: "Portfolio and professional skills of Keivan Mahani",
     images: ["https://keivanmahani.netlify.app/Logo/Cover.png"],
   },
