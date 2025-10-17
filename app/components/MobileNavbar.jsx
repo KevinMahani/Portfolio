@@ -66,7 +66,7 @@ export default function MobileNavbar() {
       <div className="lg:hidden fixed bg-[#222] z-70 top-0 left-0 border-b border-[#3c3535] pr-12 right-0 px-4 py-4 flex justify-around items-center ">
       <Link href="/">
         <img
-          src="/Logo/Logo2.png"
+          src="/Logo/Logo3.png"
           alt="Logo"
           className="w-28 sm:w-32 cursor-pointer"
         />
