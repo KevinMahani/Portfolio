@@ -284,7 +284,7 @@ export default function Navbar() {
                   href="/r-eng.pdf"
                   target="_blank"
                   className="text-white/80 hover:text-white text-[10px]
-                   border rounded-full px-2 py-0.5"
+                   border rounded-full px-2.5 py-1"
                 >
                   English
                 </Link>
@@ -292,7 +292,7 @@ export default function Navbar() {
                   href="/r-de.pdf"
                   target="_blank"
                   className="text-white/80 hover:text-white text-[10px]
-                  border rounded-full px-2 py-0.5"
+                  border rounded-full px-2.5 py-1"
                 >
                   Deutsch
                 </Link>
