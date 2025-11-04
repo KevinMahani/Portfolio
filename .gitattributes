@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Always use LF for text files
+* text=auto eol=lf
