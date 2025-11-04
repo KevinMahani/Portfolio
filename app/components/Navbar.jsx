@@ -1,6 +1,4 @@
 
-
-
 // "use client";
 
 // import { useState } from "react";
@@ -47,9 +45,11 @@
 //     <header className="hidden lg:block fixed left-0 top-0 h-screen w-70 px-10 py-10 z-50 
 //     border-r-2 border-white/20 ">
 //       <Link href="/">
-//         <h1 className="text-[20px] font-light text-white -mt-5 mb-10">
-//           Keivan Sabermahani
-//         </h1>
+//         <img
+//           src="/Logo/Logo3.png"
+//           alt="Logo"
+//           className="w-32 mb-12 cursor-pointer"
+//         />
 //       </Link>
 
 //       {/* Language toggle */}
@@ -95,7 +95,7 @@
 //                   href="/r-eng.pdf"
 //                   target="_blank"
 //                   className="text-white/80 hover:text-white text-[10px]
-//                    border rounded-full px-2 py-0.5"
+//                    border rounded-full px-2.5 py-1"
 //                 >
 //                   English
 //                 </Link>
@@ -103,7 +103,7 @@
 //                   href="/r-de.pdf"
 //                   target="_blank"
 //                   className="text-white/80 hover:text-white text-[10px]
-//                   border rounded-full px-2 py-0.5"
+//                   border rounded-full px-2.5 py-1"
 //                 >
 //                   Deutsch
 //                 </Link>
@@ -183,9 +183,7 @@
 //     </header>
 //   );
 // }
-// ..................................................
-
-
+// .........................................................
 
 
 "use client";
@@ -199,6 +197,7 @@ import { usePathname } from "next/navigation";
 import { useLanguage } from "../context/LanguageContext";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { useRef } from "react"
+import NavbarLogo from "./NavbarLogo";
 
 export default function Navbar() {
   const { lang, changeLang } = useLanguage();
@@ -233,13 +232,8 @@ export default function Navbar() {
   return (
     <header className="hidden lg:block fixed left-0 top-0 h-screen w-70 px-10 py-10 z-50 
     border-r-2 border-white/20 ">
-      <Link href="/">
-        <img
-          src="/Logo/Logo3.png"
-          alt="Logo"
-          className="w-32 mb-12 cursor-pointer"
-        />
-      </Link>
+        
+        <NavbarLogo />
 
       {/* Language toggle */}
       <div className="text-[11px] text-center flex space-x-4 -mt-5 -mb-10">
@@ -372,8 +366,5 @@ export default function Navbar() {
     </header>
   );
 }
-
-
-
 
 
