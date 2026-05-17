@@ -1,27 +1,5 @@
 [
-{
-  "id": 19,
-  "name": "VanLife Project",
-  "langIcons": ["React", "JavaScript", "CSS"],
-  "date": 2025,
-  "description": "🚐 VanLife is a demo van‑rental marketplace built with React, React Router, and Vite.\n\nExplore a fully interactive app that demonstrates:\n- Nested client-side routes\n- Protected host routes\n- Lazy-loaded components for fast performance\n- A small mock API for local development\n\nTest the login flow with this demo account (for local/testing purposes only):\n- Email: b@b.com\n- Password: p123\n\nTech Stack:\n- React (JSX)\n- React Router v6\n- Vite for development and build\n- Plain CSS and static assets\n\nFeatures:\n- Public pages: Home, About, Vans list, Van details\n- Protected host area with nested routes: Dashboard, Income, Reviews, Host vans, and detailed van pages (info, pricing, photos)\n- Route protection via an AuthRequired layout component\n- Lazy-loaded pages using React.lazy and Suspense for faster initial load\n- Fully responsive, clean, and modern UI\n\nVanLife is perfect for exploring how a scalable front-end architecture works while having fun navigating through a van rental demo!",
-  "visit-link": "https://kevin-vanlife.netlify.app/",
-  "github-link": "https://github.com/KevinMahani/VanLife-project",
-  "cover-image": "/vanlife/cover.png",
-  "mobile-design": "Mobile Design",
-  "desktop-design": "Desktop Design",
-  "mobile-images": [
-    "/vanlife/photo1.png",
-    "/vanlife/photo2.png",
-    "/vanlife/photo3.png",
-    "/vanlife/photo4.png",
-    "/vanlife/photo5.png",
-    "/vanlife/photo6.png"
-  ],
-  "desktop-images": []
-}
-
-,{  
+{  
   "id": 18,
   "name": "Authentication Project",
   "langIcons": ["React", "TypeScript", "CSS", "NextJS"],
@@ -41,28 +19,7 @@
   "desktop-images": [ ]
 }
 ,
-{
-    "id": 17,
-    "name": "PrintForge Project",
-    "langIcons": ["React", "Tailwind", "HTML5", "NextJS"],
-    "date": 2025,
-    "description": "Project Goal:\nDesigned and developed a sleek, responsive web app that empowers users to create elegant typographic posters effortlessly. By simply entering a quote and author name, users can generate clean, export-ready designs with no distractions—just a smooth, intuitive creative experience.\n\nKey Features:\n\n- Live Editing: Real-time updates as users type, enabling instant visual feedback.\n- Print-Quality Layout: Perfectly centered and balanced typography using a precise grid system.\n- Responsive & Adaptive: Automatic text scaling ensures the poster looks stunning across all devices and screen sizes.\n- Minimal & Efficient: Focused on simplicity, performance, and user-centric design.\n\nTechnologies & Tools:\n\n- Frontend: Next.js and React for dynamic, performant UI and seamless interactivity.\n- Styling: Tailwind CSS and custom CSS for fast, scalable, and maintainable design.\n- Markup & Scripting: Semantic HTML5 and modern ES6 JavaScript features.\n- Design & Development Workflow: Figma for UI/UX design and Visual Studio Code for efficient coding.",
-    "visit-link": "https://kevin-printforge-project.netlify.app/",
-    "github-link": "https://github.com/KevinMahani/PrinForge-Project",
-    "cover-image": "/printforge/cover.png",
-    "mobile-design": "Mobile Design",
-    "desktop-design": "Desktop Design",
-    "desktop-images": [
-        "/printforge/desktop/desktop1.png",
-        "/printforge/desktop/desktop2.png",
-        "/printforge/desktop/desktop3.png"
-    ],
-    "mobile-images": [
-        "/printforge/mobile/mobile1.png",
-        "/printforge/mobile/mobile2.png",
-        "/printforge/mobile/mobile3.png"
-    ]
-    },
+
     {
     "id": 16,
     "name": "Cat Facts",
@@ -298,49 +255,6 @@
   "mobile-images": [
     "/scoreboard/photo1.png"
   ]
-},
-{
-  "id": 2,
-  "name": "Decobam (Website)",
-  "langIcons": ["CSS", "WordPress", "HTML5", "PHP"],
-  "date": 2022,
-  "description": "Decobam is one of my earliest full website designs, created using WordPress. This project showcases my foundational skills in web design, combining visual aesthetics with functionality to deliver a clean, user-friendly experience. The site is tailored for a professional audience, highlighting the company's offerings with a modern and structured layout.\n\n🎯 Project Highlights:\n🔧 Built using WordPress with custom design elements\n🌐 Bilingual support – accessible in both English and French\n🎨 Clean, modern interface with a focus on usability\n📱 Fully responsive design optimized for desktop, tablet, and mobile\n⚡ Smooth navigation and fast loading times for a seamless user experience\n\nThis project reflects my early understanding of design principles, content structure, and responsive design, and laid the groundwork for more advanced work in UI/UX and front-end development.",
-  "visit-link": "https://decobam.com/?lang=en",
-  "github-link": "/projects/2",
-  "cover-image": "/decobam/cover.png",
-  "mobile-design": "Mobile Design",
-  "desktop-design": "Desktop Design",
-  "mobile-images": [
-    "/decobam/mobile/photo1.png",
-    "/decobam/mobile/photo2.png",
-    "/decobam/mobile/photo3.png",
-    "/decobam/mobile/photo4.png"
-  ],
-  "desktop-images": [
-    "/decobam/desktop/photo1.png",
-    "/decobam/desktop/photo2.png",
-    "/decobam/desktop/photo3.png",
-    "/decobam/desktop/photo4.png"
-  ]
-},
-{
-  "id": 1,
-  "name": "Zarmatn (Website)",
-  "langIcons": ["CSS", "WordPress", "HTML5", "PHP"],
-  "date": 2022,
-  "description": "Zarmatn Translation Agency Website \n \n I designed and developed the Zarmatn website using WordPress as one of my first professional projects. This Persian-language site represents a German translation agency based in Tehran and offers services such as document translation, certified translations, and language consultation. The design focuses on clarity, ease of navigation, and a professional appearance to build client trust. I implemented a responsive layout for seamless viewing on both mobile and desktop devices, optimized page speed, and structured the content to clearly highlight the agency’s services and contact options.",
-  "visit-link": "https://zarmatn.ir/",
-  "github-link": "/projects/1",
-  "cover-image": "/zarmatn/cover.png",
-  "mobile-design": "Mobile Design",
-  "desktop-design": "Desktop Design",
-  "mobile-images": [
-    "/zarmatn/photo1.png",
-    "/zarmatn/photo2.png",
-    "/zarmatn/photo3.png",
-    "/zarmatn/photo4.png"
-  ],
-  "desktop-images": []
 }
 
 ]
